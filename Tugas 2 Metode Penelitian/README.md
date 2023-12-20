@@ -13,7 +13,7 @@ https://ieeexplore.ieee.org/document/7915015
 Pada tahap ini dilakukan resize ukuran untuk seluruh gambar agar memiliki ukuran yang sama. Setelah itu dilakukan transformasi warna dari RGB ke YCbCr karena bagian yang terinfeksi pada tanaman padi akan terlihat pada bidang warna Cr.
 ## 2.	Segmentasi
 Pada tahap ini dilakukan berdasarkan pemilihan bidang warna Cr karena bidang warna tersebut menampilkan bagian tanaman padi yang terinfeksi. Lalu bidang warna Cr dimanfaatkan untuk mengubah bagian tersebut menjadi hitam putih atau format warna BW. Setelah itu, dilakukan serangkaian operasi morfologi, seperti operasi pembukaan dan penutupan ekspansi korosi pada warna BW untuk mengekstraksi bagian yang terinfeksi dengan lebih baik. Kemudian dilakukan rekonstruksi citra asli RGB berdasarkan bagian terinfeksi yang baru diekstraksi untuk mendapatkan citra RGB dari bagian yang terinfeksi.
-## 3.	Ekstraksoi Fitur
+## 3.	Ekstraksi Fitur
 Pada tahap ini dilakukan ekstraksi beberapa fitur dari citra RGB bagian yang terinfeksi melalui Gray Level Co-occurrence Matrix (GLCM). Beberapa fitur tersebut yang dilakukan ekstraksi di antara lain sebagai berikut.
 •	Contras
 •	Correlation
