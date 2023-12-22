@@ -35,8 +35,10 @@ Pada tahap ini dilakukan berdasarkan pemilihan bidang warna Cr karena bidang war
 Pada tahap ini dilakukan ekstraksi beberapa fitur dari citra RGB bagian yang terinfeksi melalui Gray Level Co-occurrence Matrix (GLCM). Beberapa fitur tersebut yang dilakukan ekstraksi di antara lain sebagai berikut.
 #### 4.	Klasifikasi
 Pada tahap ini menggunakan klasifikasi Support Vector Machine (SVM), yang mana tahap ini memiliki dua fase, yaitu fase pelatihan dan fase testing untuk mengidentifikasi tiga jenis penyakit tanaman padi, seperti rice bacterial blight, rice brown spot, dan leaf smut of rice.
+
 a.	Fase Pelatihan
 Fase ini menggunakan vektor fitur untuk melatih SVM agar dapat melakukan multiklasifikasi.
+
 b.	Fase Testing
 Fase ini mengekstrak vektor fitur dan menggunakan SVM yang sudah terlatih untuk mengidentifikasi jenis penyakit.
 ### Referensi
