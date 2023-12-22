@@ -32,7 +32,21 @@ Pada tahap ini dilakukan resize ukuran untuk seluruh gambar agar memiliki ukuran
 #### 2.	Segmentasi
 Pada tahap ini dilakukan berdasarkan pemilihan bidang warna Cr karena bidang warna tersebut menampilkan bagian tanaman padi yang terinfeksi. Lalu bidang warna Cr dimanfaatkan untuk mengubah bagian tersebut menjadi hitam putih atau format warna BW. Setelah itu, dilakukan serangkaian operasi morfologi, seperti operasi pembukaan dan penutupan ekspansi korosi pada warna BW untuk mengekstraksi bagian yang terinfeksi dengan lebih baik. Kemudian dilakukan rekonstruksi citra asli RGB berdasarkan bagian terinfeksi yang baru diekstraksi untuk mendapatkan citra RGB dari bagian yang terinfeksi.
 #### 3.	Ekstraksi Fitur
-Pada tahap ini dilakukan ekstraksi beberapa fitur dari citra RGB bagian yang terinfeksi melalui Gray Level Co-occurrence Matrix (GLCM). Beberapa fitur tersebut yang dilakukan ekstraksi di antara lain sebagai berikut.
+Pada tahap ini dilakukan ekstraksi beberapa fitur dari citra RGB bagian yang terinfeksi melalui Gray Level Co-occurrence Matrix (GLCM). Beberapa fitur tersebut yang dilakukan ekstraksi di antara lain sebagai berikut. </br>
+
+•	Contras </br>
+•	Correlation </br>
+•	Energy </br>
+•	Homogeneity </br>
+•	Mean </br>
+•	Standard Deviation </br>
+•	Entropy </br>
+•	Root Mean Square </br>
+•	Variance </br>
+•	Smoothness </br>
+•	Kurtosis </br>
+•	Skewness </br>
+•	Inverse Difference Moment
 #### 4.	Klasifikasi
 Pada tahap ini menggunakan klasifikasi Support Vector Machine (SVM), yang mana tahap ini memiliki dua fase, yaitu fase pelatihan dan fase testing untuk mengidentifikasi tiga jenis penyakit tanaman padi, seperti rice bacterial blight, rice brown spot, dan leaf smut of rice.
 
