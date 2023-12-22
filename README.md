@@ -50,3 +50,6 @@ A. A. Joshi and B. D. Jadhav, “Monitoring and controlling rice diseases using 
 ![2](https://github.com/aldopradana3/riset-informatika/assets/87022323/6a0aae92-7122-48ea-aa82-70bbd0610471)
 
 ![3](https://github.com/aldopradana3/riset-informatika/assets/87022323/1071cd56-d59d-4acc-be8f-27c1fb6a39e7)
+#### Confusion Matrix
+![confusion_matrix](https://github.com/aldopradana3/riset-informatika/assets/87022323/17d7b5dc-884b-428b-9b8a-8e2342c43817)
+
