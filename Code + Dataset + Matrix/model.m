@@ -9,7 +9,7 @@ item_start = 1;
 item_end = 32;
 
 k = 1;
-total_correct = 0; % Tambahkan inisialisasi total_correct di sini
+total_correct = 0;
 
 for c = class_start:class_end
     for n = item_start:item_end
